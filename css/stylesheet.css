@@ -1,0 +1,276 @@
+* {
+	box-sizing: border-box;
+	font-family: arial;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #c9acac;
+	
+}
+
+header {
+	padding: 1em 0;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+}
+
+header h1 {
+	margin: 0;
+	color: white;
+	padding-left: 1em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+header h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+header h1 a:hover {
+	color: violet;
+	
+}
+
+header h1,
+nav, 
+nav ul,
+nav ul li {
+	display: inline;
+}
+
+nav {
+	right: 2em;
+	top: 1.5em;
+	position: absolute;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	font-family: 'Quicksand', sans-serif;
+	margin-right: .5em;
+}
+	
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 1.25em;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: violet;
+}
+
+div.jumbotron {
+	background: url('../images/business.jpg');
+	background-size: cover;
+	padding: 5em 0;
+	border-bottom: 1px solid black;
+}
+
+
+
+div.container:first-of-type {
+	margin-top: 4.5em;
+}
+
+div.jumbotron h2 {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Quicksand', sans-serif;	
+}
+
+div.jumbotron2 {
+	
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	clear: left;
+}
+
+div.laptop,
+div.games {
+	padding: 7em 0;
+}
+
+div.jumbotron2 h2 {
+	text-align: center;
+	font-size: 2.25em;
+	color: white;
+	width: 85%;
+	border-radius: .25em;
+	margin: 0 auto;
+	background-color: black;
+}
+
+div.laptop {
+	background: url('../images/laptop.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-right: 2px solid black;
+}
+
+div.games {
+	background: url('../images/games.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-right: 2px solid black;	
+}
+
+div.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+div.offer {
+	background-color: #bcc4c5;
+	border: 2.5px solid grey;
+	border-radius: 2em;
+	margin-top: .5em;
+
+}
+
+div.offer h3,
+div.info p,
+div.info a  {
+	text-align: center;
+	
+}
+
+div.offer h3 {
+	font-size: 2em;
+	margin: .25em 0 0 0;
+	padding: 0;
+}
+
+div.info a {
+	text-decoration: none;
+	display: block;
+	border: 1px solid black;
+	width: 3.5em;
+	margin: 1em auto;
+	padding: .25em;
+	border-radius: .5em;
+	background-color: orange;
+	font-size: 1.25em;
+	text-align: center;
+	color: black;
+}
+
+div.info a:hover {
+	background-color: yellow;
+}
+
+div.personal {
+	background-color: #658ac9;
+}
+
+div.premium {
+	background-color: #6bd06d;
+}
+
+div.gold {
+	background-color: gold;
+}
+
+
+
+div.quotes h4 {
+	color: black;
+	font-size: 2em;
+	margin: .75em .5em;
+	
+}
+
+div.location,
+div.services
+ {
+	text-align: center;
+}
+
+form {
+	display: block;
+	border: 2.5px solid black;
+	border-radius: .25em;
+	background: url('../images/red-form.jpg');
+	background-size: cover;
+	width: 35em;
+	margin: 2em auto;
+	display: block;
+	padding: .25em;
+}
+
+form input[type=text] {
+	padding: .25em;
+	border-radius: .75em;
+	border: 2px solid black;
+	width: 100%;
+}
+
+form h4 {
+	font-size: 1.25em;
+	text-align: center;
+}
+
+button {
+	border-radius: .5em;
+}
+
+form label {
+	font-weight: bold;
+}
+
+label,
+input,
+button {
+	display: block;
+	margin-bottom: .25em;
+	position: relative;
+	top: 1em;
+}
+
+.inline {
+	display: inline;
+	padding: .25em;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	overflow: auto;
+	padding: .5em 0;
+}
+
+footer p {
+	display: inline;
+	position: relative;
+	left: 1em;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: inline;
+}
+
+
+
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: .75em;
+
+}
+
+
